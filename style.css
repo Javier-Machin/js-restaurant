@@ -1,0 +1,51 @@
+html, body {
+  margin: 0;
+  background: rgb(80,80,80);
+}
+
+#navbar {
+  overflow: hidden;
+  text-align: right;
+  letter-spacing: 2px;
+  background: rgb(230,230,230);
+  font-size: 30px;
+  font-family: Sans-serif;
+  padding: 10px 0 1px 0;
+}
+
+.nav-link {
+  position: relative;
+  top: 1.5px;
+  background: white;
+  margin: 0 5px;
+  padding: 8px 10px 0 10px;
+  border-width: 2px 2px 0 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 8px 8px 0 0;
+  font-weight: bold;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.unselected {
+  padding: 0px 10px 0px 10px;
+  top: 3.5px;
+  font-weight: normal;
+}
+
+.header {
+  background-image: url("img/image.jpg");
+  background-size: 100%;
+  background-position: center;
+  min-width: 680px;
+  height: 450px;
+}
+
+.description {
+  width: 50%;
+  min-width: 600px;
+  margin: 0 auto;
+  color: rgb(200,200,200);
+  font-size: 35px;
+}
