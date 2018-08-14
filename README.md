@@ -1,0 +1,1 @@
+Restaurant site with HTML content generated with JavaScript, split on modules as NPM and Webpack practise
