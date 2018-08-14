@@ -1,8 +1,14 @@
+import { selectTab } from './tabselector'
+
 function renderHome() {
   const container = document.getElementById("content");
+  const navbarLinks = document.getElementsByClassName("nav-link");
   const header = document.createElement("header");
   const description = document.createElement("section");
   const text = document.createElement("p");
+
+  //Selects correct tab
+  selectTab(0);
   
   text.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit" +
                    "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." + 
@@ -10,10 +16,17 @@ function renderHome() {
                    "nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in" +
                    "reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla" + 
                    "pariatur. Excepteur sint occaecat cupidatat non proident," + 
+                   "sunt in culpa qui officia deserunt mollit anim id est laborum."+
+                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit" +
+                   "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." + 
+                   "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris" + 
+                   "nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in" +
+                   "reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla" + 
+                   "pariatur. Excepteur sint occaecat cupidatat non proident," + 
                    "sunt in culpa qui officia deserunt mollit anim id est laborum."
-  
-  header.classList.add("header");
+
   description.appendChild(text);
+  header.classList.add("header");
   description.classList.add("description");
   container.appendChild(header);
   container.appendChild(description);
