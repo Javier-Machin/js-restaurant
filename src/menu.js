@@ -12,35 +12,35 @@ function renderMenu() {
   selectTab(1);
   
   food = document.createElement("article");
-  food.innerHTML = "Fresh fish";
+  food.innerHTML = "Fresh fish 🐠";
   menu.appendChild(food);
 
   food = document.createElement("article");
-  food.innerHTML = "Fresh meat";
+  food.innerHTML = "Fresh meat 🍖";
   menu.appendChild(food);
 
   food = document.createElement("article");
-  food.innerHTML = "Potato salad";
+  food.innerHTML = "Salad 🥗";
   menu.appendChild(food);
 
   food = document.createElement("article");
-  food.innerHTML = "Mom's Spaghetti";
+  food.innerHTML = "Mom's Spaghetti 🍝";
   menu.appendChild(food);
 
   food = document.createElement("article");
-  food.innerHTML = "Fresh fish";
+  food.innerHTML = "Fresh fish 🐟";
   menu.appendChild(food);
 
   food = document.createElement("article");
-  food.innerHTML = "Fresh meat";
+  food.innerHTML = "Fresh meat 🥩";
   menu.appendChild(food);
 
   food = document.createElement("article");
-  food.innerHTML = "Potato salad";
+  food.innerHTML = "Potato salad 🥗";
   menu.appendChild(food);
 
   food = document.createElement("article");
-  food.innerHTML = "Mom's Spaghetti";
+  food.innerHTML = "Mom's Spaghetti 🍝";
   menu.appendChild(food);
   
   header.classList.add("header");
