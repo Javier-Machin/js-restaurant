@@ -6,25 +6,25 @@ html, body {
 #navbar {
   overflow: hidden;
   text-align: right;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   background: rgb(230,230,230);
-  font-size: 30px;
+  font-size: 25px;
   font-family: Sans-serif;
   padding: 10px 0 1px 0;
 }
 
 .nav-link {
   position: relative;
-  top: 1.5px;
+  top: 2px;
   background: white;
-  margin: 0 5px;
+  margin: 0 2px;
   padding: 8px 10px 0 10px;
   border-width: 2px 2px 0 2px;
   border-color: black;
   border-style: solid;
   border-radius: 8px 8px 0 0;
   font-weight: bold;
-  transition: all 1s;
+  transition: all 0.2s;
   cursor: pointer;
 }
 
@@ -47,5 +47,25 @@ html, body {
   min-width: 600px;
   margin: 0 auto;
   color: rgb(200,200,200);
+  font-size: 35px;
+}
+
+.menu {
+  margin: 0 auto;
+  color: rgb(200,200,200);
+  font-size: 35px;
+  border-radius: 5px;
+  padding: 50px 0;
+}
+
+.menu article {
+  margin: 15px auto;
+  background: rgb(110,110,110);
+  width: 20%;
+  padding: 20px 10px;
+}
+
+.contact {
+  color:rgb(200,200,200);
   font-size: 35px;
 }
