@@ -8,7 +8,7 @@ open `dist/index.html` on your browser
 
 ------------------------
 
-Página de un restaurante en la cual su contenido es generado con JavaScript y seperado en módulos como practica usando NPM y Webpack
+Página de un restaurante en la cual su contenido es generado con JavaScript y separado en módulos como practica usando NPM y Webpack
 
 Para probarla localmente:
 
